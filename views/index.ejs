@@ -1,0 +1,9 @@
+<%- include('header') %>
+  <h1>
+    <% if(user) { %>
+      <%= user.name %>的主页</h1>
+  <% } else { %>
+    请登录
+    <% } %>
+
+      <%- include('footer') %>
